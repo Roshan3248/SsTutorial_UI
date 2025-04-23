@@ -10,6 +10,7 @@ import Login from './Login';
 import StudentLayout from './layouts/StudentLayout';
 import TeacherLayout from './layouts/TeacherLayout';
 import AssignRole from './layouts/AssignRole';
+import HRLayout from './layouts/HRLayout';
 
 function App() {
   return (
@@ -37,7 +38,10 @@ function App() {
          <Route path="/teacher" element={<TeacherLayout />}>
          
          </Route>
-
+         {/* HR Layout */}
+         <Route path="/hr" element={<HRLayout />}>
+         
+         </Route>
       </Routes>
     </Router>
   );
